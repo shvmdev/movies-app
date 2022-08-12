@@ -1,0 +1,92 @@
+.genreList{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.genreList h4{
+    background-color: skyblue;
+    padding: 0.4rem 0.8rem;
+    color: #fff;
+    border-radius: 0.4rem;
+}
+
+.favouriteTable{
+    width: 90%;
+    margin: auto;
+    margin-block: 3rem;
+    font-size: 0.9rem;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 0.2rem;
+}
+
+
+.favouriteTable th{
+    text-align: center;
+    background-color: #eff5f7;
+    padding: 1rem;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+}
+
+.favouriteTable td{
+    padding: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+}
+
+.fav-items{
+    display: flex;
+    align-items: center;
+}
+
+.fav-items img{
+    width: 12rem;
+    height: 6rem;
+}
+
+.fav-items h4{
+   font-weight: 500;
+   /* font-size: 0.9rem; */
+   padding-left: 2rem;
+}
+
+
+.favGenre span{
+    color: green;
+    font-size: 0.8rem;
+    background-color:rgba(0,255,0,0.1);
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.7rem;
+    font-weight: 600;
+}
+
+
+.fav-icon{
+    padding-inline: 0.3rem;
+}
+
+.paginationBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 3rem;
+}
+
+.paginationBox input{
+    padding:0.3rem 1rem;
+}
+
+.paginationBox input:last-child{
+    padding-right: 0;
+}
+
+.pagination{
+    margin-bottom: 2rem;
+}
